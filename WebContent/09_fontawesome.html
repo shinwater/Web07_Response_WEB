@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script><!--제이쿼리 cdn-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link><!--fontawesome cdn-->
+
+</head>
+<body>
+    <div class="container" style="padding-top: 100px;">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!-- 모바일 용일때 오른쪽 메뉴바가 나타나게 하기-->
+                    <button type="button" class="collapsed navbar-toggle"
+                        data-toggle="collapse"  data-target="#nav-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">
+                        BOOTSTRAP 강의
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="nav-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JAVASCRIPT</a></li>
+                        <li><a href="#">JQUERY</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    로그인
+                </div>
+                <div class="panel-body">
+                    <input type="text" class="form-control" placeholder="ID">
+                    <input type="password" class="form-control" placeholder="비밀번호"><br/>
+                    <button class="btn btn-md btn-success btn-block">로그인</button> <br/>
+
+                    <a href="#" class="btn btn-md btn-primary btn-block">
+                        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>페이스북로그인</a><br/>
+                    <a href="#" class="btn btn-md btn-warning btn-block">
+                        <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>트위터로그인</a><br/>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

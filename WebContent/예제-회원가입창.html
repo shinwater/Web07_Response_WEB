@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"></link>
+</head>
+<body>
+    <h2 align="center"> 회원가입</h2>
+    <div class="container" style="padding-top: 20px;">
+		<table  class="table table-bordered table-hover">
+			<tr>
+				<!--1행  -->
+				<th>아이디</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  -->
+					 <input type="text"  autofocus > 
+					 <button class="btn btn-warning">중복확인</button>
+				</td>
+            </tr>
+            <tr>
+				<!--2행  -->
+				<th>이름</th>
+				<!--2행1열  -->
+				<td>
+					<!--2행2열  --> <input type="text">
+				</td>
+			</tr>
+
+			<tr>
+				<!-- 3행 -->
+				<th>성별</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  --> 
+					<input type="radio" name="gender" value="남자">남자
+					<input type="radio" name="gender" value="여자" checked>여자
+				</td>
+			</tr>
+
+			<tr>
+				<!--4행  -->
+				<th>비밀번호</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  --> <input type="password" autofocus>
+				</td>
+			</tr>
+
+
+			<tr>
+				<!--5행  -->
+				<th>비밀번호확인</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  --> <input type="password" autofocus>
+				</td>
+			</tr>
+
+
+			<tr>
+				<!--6행  -->
+				<th>이메일</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  --> <input type="text" autofocus> @
+					<input type="text" autofocus>
+
+					
+					<select>
+					<optgroup label="메일" class="opt form-inline">
+					<option>naver.com</option>
+					<option>hanmail.net</option>
+					<option>icloud.com</option>
+					<option>gmail.com</option>
+					<option>nate.com</option>
+					<option>직접입력</option>
+					</optgroup>
+					</select>
+				</td>
+			</tr>
+
+
+			<tr>
+				<!--7행  -->
+				<th>주소</th>
+				<!--1행1열  -->
+				<td>
+                    <!--1행2열  --> <input type="text" autofocus> 
+                    <button class="btn btn-warning">주소찾기</button>
+				</td>
+			</tr>
+
+			<tr>
+				<!--8행  -->
+				<th>연락처</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  -->
+					<select>
+					<optgroup label="번호선택">
+						<option value="010">010</option>
+						<option value="011">011</option>
+					</optgroup>
+					</select>
+					 - <input type="text" autofocus> 
+					 - <input type="text" autofocus>
+				</td>
+			</tr>
+
+			<tr>
+				<!--9행  -->
+				<th>관심</th>
+				<!--1행1열  -->
+				<td>
+					<!--1행2열  --> 
+					<input type="checkbox" name="hobby" value="쇼핑">쇼핑
+					<input type="checkbox" name="hobby" value="게임">게임
+					<input type="checkbox" name="hobby" value="여행">여행
+					<input type="checkbox" name="hobby" value="기타">기타
+				</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
